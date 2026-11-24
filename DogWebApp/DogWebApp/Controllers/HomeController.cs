@@ -18,10 +18,17 @@ namespace DogWebApp.Controllers
             return View();
         }
 
-        public IActionResult Privacy()
+        public IActionResult Accessories()
         {
             return View();
         }
+
+
+        public IActionResult Contacts()
+        {
+            return View();
+        }
+
 
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
