@@ -24,7 +24,7 @@ namespace WebDogApp.Infrastructure.Data.Infrastructure
             return app;
         }
 
-        private static void SeedBreeds(ApplicationDbContext data)
+        public static void SeedBreeds(ApplicationDbContext data)
         {
             if (data.Breeds.Any())
             {
